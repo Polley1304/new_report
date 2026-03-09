@@ -1,0 +1,17 @@
+
+num1 = int(input("Enter your first number "))
+num2 = int(input("Enter your second number "))
+operator =input("[*, +, /, - ] ")
+if operator == "*":
+    print("Result is", num1 * num2)
+
+elif operator == "+":
+    print("Result is", num1 + num2)
+elif operator == "-":
+     print("Result is", num1 - num2)
+elif operator == "/":
+     print("Result is", num1 / num2)
+
+else:
+     print("error")
+
