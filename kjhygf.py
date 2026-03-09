@@ -15,7 +15,7 @@ else:
     elif operator == "/":
         print("Result is", num1 / num2)
     else:
-        print("you have enter incorrect operator")
+        print("you have enter incorrthect operator")
 
 finally:
     print("Done")
